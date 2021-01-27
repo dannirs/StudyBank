@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.studybank">
+
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+
+    <uses-feature android:name="android.hardware.camera" />
+
+    <application
+        android:name=".studybank"
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:largeHeap="true"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".ScoreListview"></activity>
+        <activity android:name=".RegisterActivity" />
+        <activity android:name=".HomepageActivity" />
+        <activity android:name=".LoginActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".ProfileMainActivity" />
+        <activity android:name=".ProfileChangeActivity" />
+        <activity android:name=".FriendsList" />
+        <activity android:name=".UserScore" />
+        <activity android:name=".QuizLibrary" />
+        <activity android:name=".CreateActivity" />
+        <activity android:name=".MultipleChoiceActivity" >
+        </activity>
+        <activity android:name=".TrueFalseActivity" />
+        <activity android:name=".QuizActivity" />
+        <activity android:name=".ImExActivity" />
+    </application>
+
+</manifest>

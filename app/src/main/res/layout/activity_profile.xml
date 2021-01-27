@@ -1,0 +1,257 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/ScrollView01"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <TextView
+            android:id="@+id/title"
+            android:layout_width="390dp"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="8dp"
+            android:layout_marginTop="8dp"
+            android:layout_marginEnd="8dp"
+            android:gravity="center"
+            android:padding="2dp"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:text="Edit Profile" />
+
+        <GridLayout xmlns:android="http://schemas.android.com/apk/res/android"
+            xmlns:app="http://schemas.android.com/apk/res-auto"
+            xmlns:tools="http://schemas.android.com/tools"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_margin="40dp"
+            android:orientation="horizontal"
+            android:columnCount="2"
+            android:rowCount="7"
+            android:id="@+id/grid"
+            tools:context="com.example.studybank.ProfileChangeActivity">
+
+            <TextView
+                android:id="@+id/name"
+                android:layout_width="100dp"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="8dp"
+                android:layout_marginTop="8dp"
+                android:layout_marginEnd="8dp"
+                android:gravity="center_vertical"
+                android:padding="2dp"
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:text="Name" />
+
+            <EditText
+                android:id="@+id/inputName"
+                android:layout_width="200dp"
+                android:layout_height="48dp"
+                android:layout_marginStart="8dp"
+                android:layout_marginLeft="8dp"
+                android:layout_marginTop="8dp"
+                android:layout_marginEnd="8dp"
+                android:layout_marginRight="8dp"
+                android:inputType="text"
+                app:layout_constraintRight_toRightOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+
+            <TextView
+                android:id="@+id/program"
+                android:layout_width="100dp"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="8dp"
+                android:layout_marginTop="8dp"
+                android:layout_marginEnd="8dp"
+                app:layout_constraintLeft_toLeftOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                android:gravity="center_vertical"
+                android:padding="2dp"
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:text="Program"/>
+
+            <EditText
+                android:id="@+id/inputProgram"
+                android:layout_width="200dp"
+                android:layout_height="48dp"
+                android:layout_marginStart="8dp"
+                android:layout_marginLeft="8dp"
+                android:layout_marginTop="8dp"
+                android:layout_marginEnd="8dp"
+                android:layout_marginRight="8dp"
+                android:inputType="text"
+                app:layout_constraintRight_toRightOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+
+            <TextView
+                android:id="@+id/year"
+                android:layout_width="100dp"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="8dp"
+                android:layout_marginTop="8dp"
+                android:layout_marginEnd="8dp"
+                app:layout_constraintLeft_toLeftOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                android:gravity="center_vertical"
+                android:padding="2dp"
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:text="Year"/>
+
+            <Spinner
+                android:id="@+id/inputYear"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="@color/white"/>
+
+            <!--
+            <EditText
+                android:id="@+id/inputYear"
+                android:layout_width="200dp"
+                android:layout_height="48dp"
+                android:layout_marginStart="8dp"
+                android:layout_marginLeft="8dp"
+                android:layout_marginTop="8dp"
+                android:layout_marginEnd="8dp"
+                android:layout_marginRight="8dp"
+                android:inputType="text"
+                app:layout_constraintRight_toRightOf="parent"
+                app:layout_constraintTop_toTopOf="parent" /> -->
+
+            <!--    <TextView-->
+            <!--        android:id="@+id/email"-->
+            <!--        android:layout_width="100dp"-->
+            <!--        android:layout_height="wrap_content"-->
+            <!--        android:layout_marginStart="8dp"-->
+            <!--        android:layout_marginTop="8dp"-->
+            <!--        android:layout_marginEnd="8dp"-->
+            <!--        app:layout_constraintLeft_toLeftOf="parent"-->
+            <!--        app:layout_constraintTop_toTopOf="parent"-->
+            <!--        android:gravity="center_vertical"-->
+            <!--        android:padding="2dp"-->
+            <!--        android:textAppearance="?android:attr/textAppearanceLarge"-->
+            <!--        android:text="Email"/>-->
+
+            <!--    <EditText-->
+            <!--        android:id="@+id/inputEmail"-->
+            <!--        android:layout_width="200dp"-->
+            <!--        android:layout_height="48dp"-->
+            <!--        android:layout_marginStart="8dp"-->
+            <!--        android:layout_marginLeft="8dp"-->
+            <!--        android:layout_marginTop="8dp"-->
+            <!--        android:layout_marginEnd="8dp"-->
+            <!--        android:layout_marginRight="8dp"-->
+            <!--        android:inputType="text"-->
+            <!--        app:layout_constraintRight_toRightOf="parent"-->
+            <!--        app:layout_constraintTop_toTopOf="parent" />-->
+
+            <TextView
+                android:id="@+id/country"
+                android:layout_width="100dp"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="8dp"
+                android:layout_marginTop="8dp"
+                android:layout_marginEnd="8dp"
+                app:layout_constraintLeft_toLeftOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                android:gravity="center_vertical"
+                android:padding="2dp"
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:text="Country"/>
+
+            <Spinner
+                android:id="@+id/inputCountry"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="@color/white"/>
+
+            <!-- <EditText
+                android:id="@+id/inputCountry"
+                android:layout_width="200dp"
+                android:layout_height="48dp"
+                android:layout_marginStart="8dp"
+                android:layout_marginLeft="8dp"
+                android:layout_marginTop="8dp"
+                android:layout_marginEnd="8dp"
+                android:layout_marginRight="8dp"
+                android:inputType="text"
+                app:layout_constraintRight_toRightOf="parent"
+                app:layout_constraintTop_toTopOf="parent" /> -->
+
+            <TextView
+                android:id="@+id/bio"
+                android:layout_width="100dp"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="8dp"
+                android:layout_marginTop="8dp"
+                android:layout_marginEnd="8dp"
+                app:layout_constraintLeft_toLeftOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                android:gravity="center_vertical"
+                android:padding="2dp"
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:text="Bio"/>
+
+            <EditText
+                android:id="@+id/inputBio"
+                android:layout_width="200dp"
+                android:layout_height="48dp"
+                android:layout_marginStart="8dp"
+                android:layout_marginLeft="8dp"
+                android:layout_marginTop="8dp"
+                android:layout_marginEnd="8dp"
+                android:layout_marginRight="8dp"
+                android:inputType="text"
+                app:layout_constraintRight_toRightOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+
+            <TextView
+                android:id="@+id/classes"
+                android:layout_width="100dp"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="8dp"
+                android:layout_marginTop="8dp"
+                android:layout_marginEnd="8dp"
+                app:layout_constraintLeft_toLeftOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                android:gravity="center_vertical"
+                android:padding="2dp"
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:text="Classes"/>
+
+            <EditText
+                android:id="@+id/inputClasses"
+                android:layout_width="200dp"
+                android:layout_height="48dp"
+                android:layout_marginStart="8dp"
+                android:layout_marginLeft="8dp"
+                android:layout_marginTop="8dp"
+                android:layout_marginEnd="8dp"
+                android:layout_marginRight="8dp"
+                android:inputType="text"
+                app:layout_constraintRight_toRightOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+
+        </GridLayout>
+
+        <Button
+            android:id="@+id/confirm"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_below="@+id/grid"
+            android:text="Confirm" />
+
+        <Button
+            android:id="@+id/back"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_below="@+id/grid"
+            android:text="Back" />
+
+
+
+    </RelativeLayout>
+</ScrollView>

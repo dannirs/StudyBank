@@ -1,0 +1,132 @@
+<resources>
+    <string name="app_name">StudyBank</string>
+
+    <!-- Login Activity -->
+    <string name="logout">Log out</string>
+    <string name="Login">Login</string>
+    <string name="emailHint">EMAIL</string>
+    <string name="passwordHint">PASSWORD</string>
+    <string name="register">Don\'t have an account? Sign up</string>
+
+    <!-- Profile Activity -->
+    <string name="userName">User Name</string>
+    <string name="proYear">Program, Year</string>
+    <string name="userScore">User Score</string>
+    <string name="quizzes">Quizzes</string>
+    <string name="friends">Friends</string>
+    <string name="country">Country</string>
+    <string name="bio">Bio</string>
+    <string name="courses">Courses</string>
+    <string name="edit">Edit</string>
+    <string name="sample_email">email@domain.com</string>
+    <string name="sample_country">Canada</string>
+    <string name="sample_bio">Student who loves learning</string>
+    <string name="sample_courses">Operating systems</string>
+    <string name="editProfile">Edit Profile</string>
+    <string name="name">Name</string>
+    <string name="program">Program</string>
+    <string name="year">Year</string>
+    <string name="classes">Classes</string>
+    <string name="confirm">Confirm</string>
+
+    <!-- Register Activity -->
+    <string name="createaccount">Create Account</string>
+    <string name="name_hint">Name</string>
+    <string name="email_hint">Email Address</string>
+    <string name="password_hint">Password</string>
+    <string name="confirm_pass">Confirm Password</string>
+    <string name="back_button">Back</string>
+    <string name="register_button">Register</string>
+
+    <!-- Profile Activity -->
+    <string-array name="years">
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+        <item>4</item>
+        <item>5</item>
+        <item>6</item>
+        <item>7</item>
+        <item>8</item>
+        <item>9</item>
+        <item>10</item>
+    </string-array>
+
+    <!-- Friends List -->
+    <string name="FriendsGoHere">Friends List Goes Here</string>
+    <string name="QuizLibrary">Quiz Library Goes Here</string>
+    <string name="userRankings">User Score and Rankings Goes Here</string>
+
+    <!-- Quiz Activity -->
+    <string name="button">Button</string>
+    <string name="score">Score:</string>
+
+    <string name="sample_test">Sample Test</string>
+    <string name="sample_question">Sample Question</string>
+    <string name="sample_answer_correct">Sample Correct Answer</string>
+    <string name="sample_answer_incorrect">Sample Incorrect Answer</string>
+
+    <string name="complete">Quiz Complete</string>
+    <string name="nice">Nice!</string>
+
+    <!-- Help Dialog -->
+    <string name="authors_header">Made by</string>
+    <string name="authors" translatable="false">Riyaz Khan, Sizhao Lin, Tevin Omoruan, Danni Shang, Jessa Sundberg</string>
+    <string name="help_header">How to use</string>
+    <string name="help_text_user"><i>User Profile:</i>
+    Your user profile is where you can find your personal details and overall score. Customize your profile however you want!</string>
+    <string name="help_text_makequiz"><i>Make a quiz:</i>
+    You can make multiple choice or true and false questions and add them to your quiz bank. Type in the question, then the potential answers. You should also select which answer is correct.</string>
+    <string name="help_text_takequiz"><i>Take a quiz:</i>
+    The total number of questions will be shown in the top left corner. The progress bar indicates how far you have gotten through the quiz. The percentage in the top right indicates how many questions you have gotten correct so far. The answers are displayed on buttons at the botom of the screen. Select which one you think is correct.</string>
+    <string name="help_text_imex"><i>Importing and exporting:</i>
+    Quiz banks you make will be exported to a file on your phone. You can later import these quiz bank files to take the quiz within the app.</string>
+    <string name="thanks">Thanks!</string>
+
+    <!-- Creation Activity -->
+    <string name="createQuestionButton">Create Flashcards</string>
+    <string name="multipleChoiceButton">Multiple Choice</string>
+    <string name="trueFalseButton">True/False</string>
+    <string name="questionText">Question</string>
+    <string name="optionsText">OPTIONS</string>
+    <string name="submitButton">SUBMIT</string>
+    <string name="backButton">BACK</string>
+    <string name="okButton">YES</string>
+    <string name="noButton">NO</string>
+    <string name="trueOption">TRUE</string>
+    <string name="falseOption">FALSE</string>
+    <string name="createMC">CREATE AN M/C QUESTION</string>
+    <string name="createTF">EXPORT</string>
+    <string name="resetButton">RESET</string>
+    <string name="exportMC">EXPORT</string>
+    <string name="switchToMC">SWITCH TO MC</string>
+    <string name="switchToTF">SWITCH TO TF</string>
+
+
+    <!-- Import/Export Activity -->
+    <string name="importbutton">Import</string>
+    <string name="exportbutton">Export</string>
+    <string name="mainMenu">Main Menu</string>
+    <string name="imex_title">Import and Export Studybanks</string>
+
+    <!-- Homepage -->
+    <string name="demo">Demo Activities</string>
+    <string name="profile">Profile</string>
+    <string name="create">Create test</string>
+    <string name="quiz">Quiz</string>
+    <string name="export">Import/Export</string>
+    <string name="prompt_email">Email</string>
+    <string name="prompt_password">Password</string>
+    <string name="action_sign_in">Sign in or register</string>
+    <string name="action_sign_in_short">Sign in</string>
+    <string name="welcome">"Welcome !"</string>
+    <string name="invalid_username">Not a valid username</string>
+    <string name="invalid_password">Password must be >5 characters</string>
+    <string name="login_failed">"Login failed"</string>
+    <string name="test">TEST</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+</resources>

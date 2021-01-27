@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "244590995229",
+    "firebase_url": "https://studybank-43992.firebaseio.com",
+    "project_id": "studybank-43992",
+    "storage_bucket": "studybank-43992.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:244590995229:android:daa23b10bce146fa5423f4",
+        "android_client_info": {
+          "package_name": "com.example.studybank"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "244590995229-tpfjfmbmikphbd46i8a7f69f3brvt34n.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyA0YBlK_ohs0kiYphRDhhQIrZRMYE9H8B8"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "244590995229-tpfjfmbmikphbd46i8a7f69f3brvt34n.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".TrueFalseActivity">
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/questionText" />
+
+    <EditText
+        android:id="@+id/questionEditText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:layout_below="@id/textView"/>
+
+    <TextView
+        android:id="@+id/optionsText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/optionsText"
+        android:layout_below="@id/questionEditText"
+        android:layout_centerHorizontal="true" />
+
+    <RadioGroup
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/optionsText"
+        android:layout_centerHorizontal="true"
+        android:id="@+id/trueFalseOptions">
+
+        <RadioButton
+            android:id="@+id/trueOption"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/trueOption" />
+
+        <RadioButton
+            android:id="@+id/falseOption"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/falseOption" />
+
+    </RadioGroup>
+
+    <Button
+        android:id="@+id/TFSubmitButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/trueFalseOptions"
+        android:layout_centerHorizontal="true"
+        android:text="@string/submitButton"
+        android:onClick="onSubmit"/>
+
+    <Button
+        android:id="@+id/TFResetButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/resetButton"
+        android:layout_below="@id/TFSubmitButton"
+        android:layout_centerHorizontal="true"
+        android:onClick="onReset" />
+
+    <Button
+        android:id="@+id/TFBackButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/backButton"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@id/TFResetButton"
+        android:onClick="onBack"/>
+
+    <Button
+        android:id="@+id/mcButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/exportMC"
+        android:layout_below="@id/TFBackButton"
+        android:layout_centerHorizontal="true"
+        android:onClick="onExportTF"/>
+
+    <Button
+        android:id="@+id/switchButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/switchToMC"
+        android:layout_below="@id/mcButton"
+        android:layout_centerHorizontal="true"
+        android:onClick="onCreateMC"/>
+
+</RelativeLayout>

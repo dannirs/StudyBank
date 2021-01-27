@@ -1,0 +1,135 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">StudyBank</string>
+
+    <!-- Login Activity -->
+    <string name="logout">Se déconnecter</string>
+    <string name="Login">S\'identifier</string>
+    <string name="emailHint">EMAIL</string>
+    <string name="passwordHint">MOT DE PASSE</string>
+    <string name="register">Vous n\'avez pas de compte? S\'inscrire</string>
+
+    <!-- Profile Activity -->
+    <string name="userName">Nom d\'utilisateur</string>
+    <string name="proYear">Programme, Année</string>
+    <string name="userScore">Score de l\'utilisateur</string>
+    <string name="quizzes">Quiz</string>
+    <string name="friends">Amis</string>
+    <string name="country">Pays</string>
+    <string name="bio">Biographie</string>
+    <string name="courses">Cours</string>
+    <string name="edit">Éditer</string>
+    <string name="sample_email">email@domain.com</string>
+    <string name="sample_country">Canada</string>
+    <string name="sample_bio">Étudiant qui aime apprendre</string>
+    <string name="sample_courses">Systèmes d\'exploitation</string>
+    <string name="editProfile">Editer le profil</string>
+    <string name="name">Nom</string>
+    <string name="program">Programme</string>
+    <string name="year">An</string>
+    <string name="classes">Des classes</string>
+    <string name="confirm">Confirmer</string>
+
+    <!-- Register Activity -->
+    <string name="createaccount">Créer un compte</string>
+    <string name="name_hint">Nom</string>
+    <string name="email_hint">Adresse e-mail</string>
+    <string name="password_hint">Mot de passe</string>
+    <string name="confirm_pass">Confirmez le mot de passe</string>
+    <string name="back_button">Retour</string>
+    <string name="register_button">S\'inscrire</string>
+
+    <!-- Profile Activity -->
+    <string-array name="years">
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+        <item>4</item>
+        <item>5</item>
+        <item>6</item>
+        <item>7</item>
+        <item>8</item>
+        <item>9</item>
+        <item>10</item>
+    </string-array>
+
+    <!-- Friends List -->
+    <string name="FriendsGoHere">La liste d\'amis va ici</string>
+    <string name="QuizLibrary">La bibliothèque de quiz va ici</string>
+    <string name="userRankings">Le score et le classement des utilisateurs vont ici</string>
+
+    <!-- Quiz Activity -->
+    <string name="button">Bouton</string>
+    <string name="score">But:</string>
+
+    <string name="sample_test">Échantillon test</string>
+    <string name="sample_question">Exemple de question</string>
+    <string name="sample_answer_correct">Exemple de réponse correcte</string>
+    <string name="sample_answer_incorrect">Exemple de réponse incorrecte</string>
+
+    <string name="complete">Quiz terminé</string>
+    <string name="nice">Agréable!</string>
+
+    <!-- Creation Activity -->
+    <string name="createQuestionButton">Créer des Flashcards</string>
+    <string name="multipleChoiceButton">Choix multiple</string>
+    <string name="trueFalseButton">Vrai/Faux</string>
+    <string name="questionText">Question</string>
+    <string name="optionsText">OPTIONS</string>
+    <string name="submitButton">SOUMETTRE</string>
+    <string name="backButton">RETOUR</string>
+    <string name="okButton">OUI</string>
+    <string name="noButton">NON</string>
+    <string name="trueOption">VRAI</string>
+    <string name="falseOption">FAUX</string>
+    <string name="createMC">CRÉÉ UN M/C QUESTION</string>
+    <string name="createTF">CRÉÉ UN T/F QUESTION</string>
+    <string name="resetButton">RÉINITIALISER</string>
+    <string name="exportMC">EXPORTATION</string>
+    <string name="switchToMC">PASSER À MC</string>
+    <string name="switchToTF">PASSER À TF</string>
+
+
+
+
+    <!-- Import/Export Activity -->
+    <string name="importbutton">Importer</string>
+    <string name="exportbutton">Exportation</string>
+    <string name="mainMenu">Menu principal</string>
+    <string name="imex_title">Importer et exporter Studybanks</string>
+
+    <!-- Homepage -->
+    <string name="demo">Activités de démonstration</string>
+    <string name="profile">Profil</string>
+    <string name="create">Créer un test</string>
+    <string name="quiz">Quiz</string>
+    <string name="export">Importer / Exporter</string>
+    <string name="prompt_email">Email</string>
+    <string name="prompt_password">Mot de passe</string>
+    <string name="action_sign_in">Connexion ou Inscription</string>
+    <string name="action_sign_in_short">se connecter</string>
+    <string name="welcome">"Salut !"</string>
+    <string name="invalid_username">Pas un nom d\'utilisateur valide</string>
+    <string name="invalid_password">Le mot de passe doit contenir> 5 caractères</string>
+    <string name="login_failed">"Login failed"</string>
+    <string name="test">TEST</string>
+
+    <string name="hello_blank_fragment">Bonjour fragment</string>
+    <string name="navigation_drawer_open">Ouvrir</string>
+    <string name="navigation_drawer_close">Terminer</string>
+
+    <!-- Help Dialog -->
+    <string name="authors_header">Faite par</string>
+    <string name="authors" translatable="false">Riyaz Khan, Sizhao Lin, Tevin Omoruan, Danni Shang, Jessa Sundberg</string>
+    <string name="help_header">Comment utiliser</string>
+    <string name="help_text_user"><i> Profil utilisateur: </i>
+     Votre profil utilisateur est l\'endroit où vous pouvez trouver vos informations personnelles et votre score global. Personnalisez votre profil comme vous le souhaitez!</string>
+    <string name="help_text_makequiz"><i> Faites un quiz: </i>
+     Vous pouvez faire des choix multiples ou des questions vraies et fausses et les ajouter à votre banque de quiz. Tapez la question, puis les réponses potentielles. Vous devez également sélectionner la réponse correcte.</string>
+    <string name="help_text_takequiz"><i> Répondez à un quiz: </i>
+     Le nombre total de questions sera affiché dans le coin supérieur gauche. La barre de progression indique le chemin parcouru par le quiz. Le pourcentage en haut à droite indique le nombre de questions que vous avez obtenues jusqu\'à présent. Les réponses sont affichées sur des boutons en bas de l\'écran. Sélectionnez celui que vous jugez correct.</string>
+    <string name="help_text_imex"><i> Importation et exportation: </i> Les banques de quiz que vous créez seront exportées vers un fichier sur votre téléphone. Vous pouvez ultérieurement importer ces fichiers de banque de quiz pour répondre au quiz dans l\'application.</string>
+    <string name="thanks">Merci!</string>
+
+
+</resources>

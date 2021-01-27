@@ -1,0 +1,153 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/linearLayout"
+    android:orientation="horizontal"
+    tools:context=".MultipleChoiceActivity">
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/questionText" />
+
+    <EditText
+        android:id="@+id/questionEditText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:layout_below="@id/textView"/>
+
+    <TextView
+        android:id="@+id/optionsText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/optionsText"
+        android:layout_below="@id/questionEditText"
+        android:layout_centerHorizontal="true" />
+
+    <RadioGroup
+        android:id="@+id/rGroup"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/optionsText">
+
+        <RadioButton
+            android:id="@+id/option1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="1." />
+
+        <RadioButton
+            android:id="@+id/option2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="2." />
+
+        <RadioButton
+            android:id="@+id/option3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="3." />
+
+        <RadioButton
+            android:id="@+id/option4"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="4." />
+    </RadioGroup>
+
+    <EditText
+        android:id="@+id/optionText1"
+        android:layout_width="364dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/optionsText"
+        android:layout_marginLeft="-188dp"
+        android:layout_marginTop="-14dp"
+        android:layout_toRightOf="@id/optionsText"
+        android:ems="10"
+        android:inputType="textPersonName" />
+
+    <EditText
+        android:id="@+id/optionText2"
+        android:layout_width="364dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/optionsText"
+        android:layout_marginLeft="-188dp"
+        android:layout_marginTop="18dp"
+        android:layout_toRightOf="@id/optionsText"
+        android:ems="10"
+        android:inputType="textPersonName" />
+
+    <EditText
+        android:id="@+id/optionText3"
+        android:layout_width="364dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/optionsText"
+        android:layout_marginLeft="-188dp"
+        android:layout_marginTop="50dp"
+        android:layout_toRightOf="@id/optionsText"
+        android:ems="10"
+        android:inputType="textPersonName" />
+
+    <EditText
+        android:id="@+id/optionText4"
+        android:layout_width="364dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/optionsText"
+        android:layout_marginLeft="-188dp"
+        android:layout_marginTop="83dp"
+        android:layout_toRightOf="@id/optionsText"
+        android:ems="10"
+        android:inputType="textPersonName" />
+
+    <Button
+        android:id="@+id/MCSubmitButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/rGroup"
+        android:layout_centerHorizontal="true"
+        android:text="@string/submitButton"
+        android:onClick="onSubmit"/>
+
+    <Button
+        android:id="@+id/MCResetButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/resetButton"
+        android:layout_below="@id/MCSubmitButton"
+        android:layout_centerHorizontal="true"
+        android:onClick="onReset" />
+
+    <Button
+        android:id="@+id/MCBackButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/backButton"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@id/MCResetButton"
+        android:onClick="onBack"/>
+
+    <Button
+        android:id="@+id/tfButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/createTF"
+        android:layout_below="@id/MCBackButton"
+        android:layout_centerHorizontal="true"
+        android:onClick="onExportMC"/>
+
+    <Button
+        android:id="@+id/switchTFButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/switchToTF"
+        android:layout_below="@id/tfButton"
+        android:layout_centerHorizontal="true"
+        android:onClick="onCreateTF"/>
+
+</RelativeLayout>
