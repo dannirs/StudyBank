@@ -1,7 +1,0 @@
-Which was the first smartphone available that ran Android?&HTC Dream&Nexus One&Motorola Droid&iPhone 3G&0
-What operating system is Android based on?&Linux&Unix&Windows&Other&0
-From the following list, which method is called first when an Activity starts?&onCreate()&onStart()&setContentView()&findViewByID&0
-If you want to navigate from one activity to another then Android provides you which class?&Intent&Object&StartActivity&None&0
-What do Activity objects represent in Android?&Pages in an app&Transition between pages&Visible Items&Database&0
-CP470 is the best class I ever took&True&False&-&-&0
-
